@@ -1,0 +1,42 @@
+
+
+Strike_Type : ATM  #ITM,ATM,OTM
+
+Upcoming_expiry_EQ : 29AUG24
+Upcoming_expiry_NIfty : 08AUG24
+Upcoming_expiry_BankNifty : 07AUG24
+Upcoming_expiry_FinNifty : 30JUL24
+Upcoming_expiry_MidCapNifty : 29AUG24
+target_factor :  2      
+stoploss_factor : 2
+
+
+stocks:
+  - symbol: "NSE:RELIANCE-EQ"
+    user_defined_number: 5
+    quantity: 25
+  - symbol: "NSE:NIFTY50-INDEX"
+    user_defined_number: 5
+    quantity: 25
+  - symbol: "NSE:RELIANCE-EQ"
+    user_defined_number: 5
+    quantity: 25
+  - symbol: "NSE:RELIANCE-EQ"
+    user_defined_number: 5
+    quantity: 25
+  - symbol: "NSE:RELIANCE-EQ"
+    user_defined_number: 5
+    quantity: 25
+  - symbol: "NSE:RELIANCE-EQ"
+    user_defined_number: 5
+    quantity: 25
+  - symbol: "NSE:RELIANCE-EQ"
+    user_defined_number: 5
+    quantity: 25
+  - symbol: "NSE:RELIANCE-EQ"
+    user_defined_number: 5
+    quantity: 25
+  - symbol: "NSE:RELIANCE-EQ"
+    user_defined_number: 5
+    quantity: 25
+    

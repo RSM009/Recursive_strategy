@@ -1,0 +1,93 @@
+Certainly! Here’s a detailed guide on how to handle each file and script in your project:
+
+1. Prepare Your Python Environment
+Activate the Virtual Environment:
+
+If saturn_trading is a Python virtual environment, you need to activate it. This ensures you are using the correct version of Python and have access to the specific packages installed for your project.
+
+source saturn_trading/bin/activate
+
+This command changes your terminal’s environment to use the Python interpreter and libraries from the saturn_trading environment.
+
+2. Run the Python Scripts
+You need to execute two scripts: excel_prep.py and order_placer.py. Here's a breakdown of what you should do:
+
+a. order_placer.py
+Purpose: This script is likely responsible for placing orders or executing trading actions based on the prepared data. It might interact with an API or perform transactions.
+
+Run the Script:
+
+python order_placer.py
+
+Ensure that all dependencies and configurations (like API credentials) are properly set before running this script.
+
+Open new terminal and run the script:
+
+b. excel_prep.py
+Purpose: This script is likely responsible for preparing or processing data related to Excel files. It might read data from or write data to Excel files, format it, or perform other data preparation tasks.
+
+Run the Script:
+
+python excel_prep.py
+
+Make sure that any necessary input files (such as stock_levels.xlsx or levels.csv) are in the same directory or correctly referenced in the script.
+
+Verify Output:
+Check the output files or logs to ensure the script has processed data correctly.
+
+
+Verify Output:
+Check logs or system responses to confirm that orders are placed as expected.
+
+3. Manage access_token.txt
+Manual Deletion of access_token.txt
+You need to manually delete access_token.txt daily to ensure it does not persist across sessions.
+
+Navigate to the Directory:
+
+bash
+Copy code
+cd /path/to/your/directory
+Delete the File:
+
+bash
+Copy code
+
+         rm -f access_token.txt
+
+This command removes the file from the directory.
+
+4. Verify and Fix YAML Files
+a. config.yaml
+Purpose: This file likely contains configuration settings for your scripts or application, such as API keys, file paths, or other parameters.
+
+Check and Edit:
+Use a text editor to open and edit config.yaml:
+
+bash
+Copy code
+nano config.yaml
+Validate YAML Syntax:
+Use a YAML validator to check for syntax errors. Ensure correct indentation and formatting. For example:
+
+yaml
+Copy code
+api_key: "your_api_key_here"
+file_path: "/path/to/file"
+b. detail.yaml
+Purpose: This file might contain detailed configuration or additional settings that your scripts use.
+
+Check and Edit:
+Open detail.yaml using a text editor:
+
+bash
+Copy code
+nano detail.yaml
+Validate YAML Syntax:
+Validate the file using a YAML validator to ensure there are no formatting issues.
+
+c. other YAML files
+Purpose: Any other YAML files should be checked for similar issues and corrected.
+
+Check and Edit:
+Open each YAML file and make necessary edits. Ensure consistency and correct syntax.

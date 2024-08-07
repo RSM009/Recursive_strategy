@@ -1,0 +1,25 @@
+stocks:
+  - symbol: "NSE:RELIANCE-EQ"
+    user_defined_number: 5
+    Strike_price_gap:  20 
+
+
+  - symbol: "NSE:NESTLEIND-EQ"
+    user_defined_number: 5
+    Strike_price_gap:  20 
+
+
+  - symbol: "NSE:NIFTY50-INDEX"
+    user_defined_number: 7
+    Strike_price_gap:  50 
+
+
+  - symbol: "NSE:PAYTM-EQ"
+    user_defined_number: 6
+    Strike_price_gap:  20 
+
+
+  - symbol: "NSE:NIFTYBANK-INDEX"
+    user_defined_number: 8
+    Strike_price_gap:  100 
+
